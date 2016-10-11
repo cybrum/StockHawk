@@ -13,12 +13,16 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.udacity.nanodegree.stockhawk;
+package com.udacity.nanodegree.stockhawk.ui;
 
 import android.os.Bundle;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
+
+import com.udacity.nanodegree.stockhawk.R;
+import com.udacity.nanodegree.stockhawk.StockDetailFragment;
+import com.udacity.nanodegree.stockhawk.StockListActivity;
 
 /**
  * An activity representing a single Stock detail screen. This

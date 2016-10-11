@@ -26,7 +26,7 @@ import android.widget.TextView;
 
 import com.udacity.nanodegree.stockhawk.StockListActivity;
 import com.udacity.nanodegree.stockhawk.data.QuoteHistoricalDataColumns;
-import com.udacity.nanodegree.stockhawk.widget.helper.ItemTouchHelperCallback;
+import com.udacity.nanodegree.stockhawk.gesture.ItemTouchHelperCallback;
 import com.udacity.nanodegree.stockhawk.R;
 import com.udacity.nanodegree.stockhawk.data.QuoteColumns;
 import com.udacity.nanodegree.stockhawk.data.QuoteProvider;

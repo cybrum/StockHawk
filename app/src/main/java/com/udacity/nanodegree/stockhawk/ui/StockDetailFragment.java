@@ -35,6 +35,7 @@ import android.widget.TextView;
 import com.udacity.nanodegree.stockhawk.data.QuoteColumns;
 import com.udacity.nanodegree.stockhawk.data.QuoteHistoricalDataColumns;
 import com.udacity.nanodegree.stockhawk.data.QuoteProvider;
+import com.udacity.nanodegree.stockhawk.ui.StockDetailActivity;
 
 import java.util.ArrayList;
 import java.util.List;

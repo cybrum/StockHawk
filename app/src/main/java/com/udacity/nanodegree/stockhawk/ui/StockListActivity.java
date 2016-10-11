@@ -43,10 +43,13 @@ import com.udacity.nanodegree.stockhawk.data.QuoteColumns;
 import com.udacity.nanodegree.stockhawk.data.QuoteProvider;
 import com.udacity.nanodegree.stockhawk.rest.QuoteCursorAdapter;
 import com.udacity.nanodegree.stockhawk.rest.RecyclerViewItemClickListener;
-import com.udacity.nanodegree.stockhawk.widget.helper.ItemTouchHelperCallback;
+import com.udacity.nanodegree.stockhawk.gesture.ItemTouchHelperCallback;
 import com.google.android.gms.gcm.GcmNetworkManager;
 import com.google.android.gms.gcm.PeriodicTask;
 import com.google.android.gms.gcm.Task;
+import com.udacity.nanodegree.stockhawk.ui.StockDetailActivity;
+import com.udacity.nanodegree.stockhawk.ui.StockIntentService;
+import com.udacity.nanodegree.stockhawk.ui.StockTaskService;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;

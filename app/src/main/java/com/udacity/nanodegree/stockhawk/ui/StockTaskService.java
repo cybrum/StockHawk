@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.udacity.nanodegree.stockhawk;
+package com.udacity.nanodegree.stockhawk.ui;
 
 import android.content.ContentProviderOperation;
 import android.content.ContentResolver;
@@ -42,7 +42,6 @@ import java.io.UnsupportedEncodingException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
-import java.util.Collections;
 import java.util.Date;
 import java.util.List;
 import java.util.Locale;

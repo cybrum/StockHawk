@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.udacity.nanodegree.stockhawk;
+package com.udacity.nanodegree.stockhawk.ui;
 
 import android.app.IntentService;
 import android.content.Intent;
