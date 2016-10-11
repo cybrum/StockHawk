@@ -3,9 +3,9 @@
     <string name="app_name">Stock Hawk</string>
     <string name="action_change_units">Change Units</string>
     <string name="add_symbol">Add a symbol</string>
-    <string name="input_hint">FB</string>
+    <string name="input_hint">Stock Symbol</string>
     <string name="no_internet_connection">This app requires an internet connection</string>
-    <string name="empty_view_no_connection_title">Whoops!</string>
+    <string name="empty_view_no_connection_title">Oops!</string>
     <string name="empty_view_no_connection_message">No internet connection found. Check your connection and try again</string>
     <string name="input_pre_fill" />
     <string name="stock_already_saved">This stock is already saved!</string>

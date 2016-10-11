@@ -1,15 +1,14 @@
 # Stock Hawk App
-[![Crates.io](https://img.shields.io/crates/l/rustc-serialize.svg?maxAge=2592000)]()
+Stock Hawk is the fourth project in Udacity's Android Developer Nanodegree.
 
-Stock Hawk is the fourth project in Udacity's Android Developer Nanodegree. The purpose of this project was to diagnose problems and practice improving apps. 
+Allows user to access real time stock information. Users can add stocks they want to keep track of.
+A collection widget can be used to keep track of stocks from home screen. 
+Stock price trend for past year can be checked using graphs. Built in localization support.
 
-<img width="40%" src="https://cloud.githubusercontent.com/assets/2931932/15270441/95bb27c6-1a28-11e6-8534-fdb3d9c13b8d.png" />
-<img width="40%" src="https://cloud.githubusercontent.com/assets/2931932/15270442/95bbb466-1a28-11e6-9868-4e9540e5b1c5.png" />
-<img width="40%" src="https://cloud.githubusercontent.com/assets/2931932/15270440/95b8830e-1a28-11e6-96a7-7f54193f810a.png" />
 
 ## License
 
-Copyright 2016 Dmitry Malkovich
+Copyright 2016 Nibedit Dey
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.

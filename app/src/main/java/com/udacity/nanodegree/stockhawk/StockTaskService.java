@@ -60,7 +60,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 public class StockTaskService extends GcmTaskService {
 
     private static String LOG_TAG = StockTaskService.class.getSimpleName();
-    private final static String INIT_QUOTES = "\"YHOO\",\"AAPL\",\"GOOG\",\"MSFT\"";
+    private final static String INIT_QUOTES = "\"FTV\",\"FIT\",\"DHR\",\"PFE\",\"GE\"";
     public final static String TAG_PERIODIC = "periodic";
 
     private Context mContext;
