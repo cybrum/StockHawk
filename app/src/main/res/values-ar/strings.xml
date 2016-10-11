@@ -5,7 +5,6 @@
     <string name="add_symbol">إضافة رمز</string>
     <string name="input_hint">الأسهم رمز</string>
     <string name="no_internet_connection">يتطلب هذا التطبيق اتصال بالإنترنت</string>
-    <string name="empty_view_no_connection_title">Oops!</string>
     <string name="empty_view_no_connection_message">العثور على أي اتصال بالإنترنت. التحقق من اتصالك وحاول مرة أخرى</string>
     <string name="input_pre_fill" />
     <string name="stock_already_saved">يتم حفظ هذه الأسهم بالفعل!</string>
@@ -14,7 +13,6 @@
     <string name="stock_detail_tab1">5 أيام</string>
     <string name="stock_detail_tab2">2 أسابيع</string>
     <string name="stock_detail_tab3">1 شهر</string>
-    <string name="stock_detail_tab_header">NASDAQ: %1$s</string>
     <string name="disagree">إلغاء</string>
     <string name="add">إضافة</string>
     <string name="offline">غير متصل</string>

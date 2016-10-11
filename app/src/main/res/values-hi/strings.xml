@@ -5,7 +5,6 @@
     <string name="add_symbol">एक प्रतीक जोड़े</string>
     <string name="input_hint">स्टॉक प्रतीक</string>
     <string name="no_internet_connection">इस आवेदन के लिए एक इंटरनेट कनेक्शन की आवश्यकता है</string>
-    <string name="empty_view_no_connection_title">Oops!</string>
     <string name="empty_view_no_connection_message">कोई इंटरनेट कनेक्शन नहीं!</string>
     <string name="input_pre_fill" />
     <string name="stock_already_saved">यह शेयर पहले से ही मौजूद है!</string>
@@ -14,7 +13,6 @@
     <string name="stock_detail_tab1">5 दिन</string>
     <string name="stock_detail_tab2">2 सप्ताह</string>
     <string name="stock_detail_tab3">1 महीना</string>
-    <string name="stock_detail_tab_header">NASDAQ: %1$s</string>
     <string name="disagree">वापस</string>
     <string name="add">शेयर जोड़े</string>
     <string name="offline">ऑफलाइन</string>
