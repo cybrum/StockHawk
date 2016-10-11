@@ -15,7 +15,7 @@
     <string name="stock_detail_tab2">2 सप्ताह</string>
     <string name="stock_detail_tab3">1 महीना</string>
     <string name="stock_detail_tab_header">NASDAQ: %1$s</string>
-    <string name="disagree">Cancel</string>
+    <string name="disagree">वापस</string>
     <string name="add">शेयर जोड़े</string>
     <string name="offline">ऑफलाइन</string>
     <string name="try_again">पुनः प्रयास करें</string>
