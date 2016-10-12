@@ -39,7 +39,7 @@
             android:exported="true" />
 
         <activity
-            android:name=".StockListActivity"
+            android:name=".ui.StockListActivity"
             android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -52,7 +52,7 @@
             android:label="@string/stock_detail_title">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.udacity.nanodegree.stockhawk.StockListActivity" />
+                android:value="com.udacity.nanodegree.stockhawk.ui.StockListActivity" />
         </activity>
 
         <service

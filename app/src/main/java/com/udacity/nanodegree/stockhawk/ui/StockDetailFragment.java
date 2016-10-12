@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.udacity.nanodegree.stockhawk;
+package com.udacity.nanodegree.stockhawk.ui;
 
 import android.database.Cursor;
 import android.graphics.Color;
@@ -31,7 +31,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TabHost;
 import android.widget.TextView;
-
+import com.udacity.nanodegree.stockhawk.R;
 import com.udacity.nanodegree.stockhawk.data.QuoteColumns;
 import com.udacity.nanodegree.stockhawk.data.QuoteHistoricalDataColumns;
 import com.udacity.nanodegree.stockhawk.data.QuoteProvider;

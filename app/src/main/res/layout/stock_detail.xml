@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.udacity.nanodegree.stockhawk.StockDetailFragment">
+    tools:context="com.udacity.nanodegree.stockhawk.ui.StockDetailFragment">
 
     <LinearLayout
         android:layout_width="match_parent"
