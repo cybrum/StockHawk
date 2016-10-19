@@ -68,8 +68,6 @@ public class StockDetailFragment extends Fragment implements LoaderManager.Loade
     private String mSymbol;
     private String mSelectedTab;
 
-    @Bind(R.id.stock_name)
-    TextView mNameView;
     @Bind(R.id.stock_symbol)
     TextView mSymbolView;
     @Bind(R.id.stock_bidprice)
@@ -165,7 +163,9 @@ public class StockDetailFragment extends Fragment implements LoaderManager.Loade
             mEbitdaView.setText(ebitda);
 
             String name = data.getString(data.getColumnIndex(QuoteColumns.NAME));
-            mNameView.setText(name);
+            if (getActionBar() != null) {
+                getActionBar().setTitle(name);
+            }
 
             String change = data.getString(data.getColumnIndex(QuoteColumns.CHANGE));
             String percentChange = data.getString(data.getColumnIndex(QuoteColumns.PERCENT_CHANGE));

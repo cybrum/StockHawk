@@ -45,6 +45,9 @@ public class StockDetailActivity extends AppCompatActivity {
         int id = item.getItemId();
         if (id == android.R.id.home) {
             onBackPressed();
+//            if (getActionBar() != null) {
+//                getActionBar().setTitle("Stock Hawk");
+//            }
             return true;
         }
         return super.onOptionsItemSelected(item);
