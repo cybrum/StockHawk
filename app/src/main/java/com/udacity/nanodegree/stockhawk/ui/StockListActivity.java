@@ -288,8 +288,6 @@ public class StockListActivity extends AppCompatActivity implements
                         null);
                 if (cursor != null) {
                     cursor.close();
-                    Snackbar.make(mCoordinatorLayout, R.string.stock_not_found,
-                            Snackbar.LENGTH_LONG).show();
                     return cursor.getCount() != 0;
                 }
                 return Boolean.FALSE;
