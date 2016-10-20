@@ -18,8 +18,7 @@
                 android:layout_height="wrap_content"
                 android:paddingTop="@dimen/stock_symbol_horizontal_padding"
                 android:textAllCaps="true"
-                android:paddingLeft="@dimen/material_default_padding"
-                android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+                android:paddingLeft="@dimen/material_default_padding" />
 
             <RelativeLayout
                 android:layout_width="wrap_content"
