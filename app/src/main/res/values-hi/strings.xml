@@ -8,6 +8,7 @@
     <string name="empty_view_no_connection_message">कोई इंटरनेट कनेक्शन नहीं!</string>
     <string name="input_pre_fill" />
     <string name="stock_already_saved">यह शेयर पहले से ही मौजूद है!</string>
+    <string name="symbol_not_found">स्टॉक प्रतीक मौजूद नहीं है!</string>
     <string name="add_stock_quote">एक नया स्टॉक उद्धरण जोड़े</string>
     <string name="stock_detail_title">स्टॉक</string>
     <string name="stock_detail_tab1">5 दिन</string>

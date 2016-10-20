@@ -25,6 +25,7 @@ import android.view.View;
 import android.widget.ProgressBar;
 
 import com.afollestad.materialdialogs.MaterialDialog;
+import com.udacity.nanodegree.stockhawk.R;
 import com.udacity.nanodegree.stockhawk.data.QuoteColumns;
 import com.udacity.nanodegree.stockhawk.data.QuoteProvider;
 import com.udacity.nanodegree.stockhawk.rest.QuoteCursorAdapter;
@@ -33,7 +34,6 @@ import com.udacity.nanodegree.stockhawk.gesture.ItemTouchHelperCallback;
 import com.google.android.gms.gcm.GcmNetworkManager;
 import com.google.android.gms.gcm.PeriodicTask;
 import com.google.android.gms.gcm.Task;
-import com.udacity.nanodegree.stockhawk.R;
 import com.udacity.nanodegree.stockhawk.ui.StockDetailActivity;
 import com.udacity.nanodegree.stockhawk.ui.StockIntentService;
 import com.udacity.nanodegree.stockhawk.ui.StockTaskService;
@@ -240,7 +240,7 @@ public class StockListActivity extends AppCompatActivity implements
                             new MaterialDialog.InputCallback() {
                                 @Override
                                 public void onInput(@NonNull MaterialDialog dialog, CharSequence input) {
-                                    addStockQuote(input.toString());
+                                    addStockQuote(input.toString().replaceAll("\\s",""));
                                 }
                             }).build();
             mDialog.show();
@@ -288,6 +288,8 @@ public class StockListActivity extends AppCompatActivity implements
                         null);
                 if (cursor != null) {
                     cursor.close();
+                    Snackbar.make(mCoordinatorLayout, R.string.stock_not_found,
+                            Snackbar.LENGTH_LONG).show();
                     return cursor.getCount() != 0;
                 }
                 return Boolean.FALSE;
