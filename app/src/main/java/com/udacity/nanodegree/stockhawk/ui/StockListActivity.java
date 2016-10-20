@@ -240,7 +240,7 @@ public class StockListActivity extends AppCompatActivity implements
                             new MaterialDialog.InputCallback() {
                                 @Override
                                 public void onInput(@NonNull MaterialDialog dialog, CharSequence input) {
-                                    addStockQuote(input.toString().replaceAll("\\s",""));
+                                    addStockQuote(input.toString().replaceAll("\\s","").toUpperCase());
                                 }
                             }).build();
             mDialog.show();
